@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\SPIRIT\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\SPIRIT\\.nuget\\packages"
+    ]
+  }
+}

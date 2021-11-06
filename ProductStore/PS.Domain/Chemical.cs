@@ -6,10 +6,10 @@ namespace PS.Domain
 {
     public class Chemical:Product
     {
-        public string City { get; set; }
+        
         public string LabName { get; set; }
-        public string StreetAddress{ get; set; }
 
+        public Address MyAddress { get; set; }
         //instead of super like java
         public override void GetDetails()
         {

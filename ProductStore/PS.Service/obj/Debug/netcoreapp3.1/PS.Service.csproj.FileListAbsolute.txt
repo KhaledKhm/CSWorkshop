@@ -1,0 +1,15 @@
+C:\Users\khmth\source\repos\ProductStore\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.csproj.AssemblyReference.cache
+C:\Users\khmth\source\repos\ProductStore\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khmth\source\repos\ProductStore\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.AssemblyInfoInputs.cache
+C:\Users\khmth\source\repos\ProductStore\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.AssemblyInfo.cs
+C:\Users\khmth\source\repos\ProductStore\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.csproj.CoreCompileInputs.cache
+C:\Users\khmth\source\repos\ProductStore\PS.Service\bin\Debug\netcoreapp3.1\PS.Service.deps.json
+C:\Users\khmth\source\repos\ProductStore\PS.Service\bin\Debug\netcoreapp3.1\PS.Service.dll
+C:\Users\khmth\source\repos\ProductStore\PS.Service\bin\Debug\netcoreapp3.1\PS.Service.pdb
+C:\Users\khmth\source\repos\ProductStore\PS.Service\bin\Debug\netcoreapp3.1\PS.Domain.dll
+C:\Users\khmth\source\repos\ProductStore\PS.Service\bin\Debug\netcoreapp3.1\PS.Domain.pdb
+C:\Users\khmth\source\repos\ProductStore\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.csproj.CopyComplete
+C:\Users\khmth\source\repos\ProductStore\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.dll
+C:\Users\khmth\source\repos\ProductStore\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.pdb
+C:\Users\khmth\source\repos\ProductStore\PS.Service\bin\Debug\netcoreapp3.1\PS.Data.dll
+C:\Users\khmth\source\repos\ProductStore\PS.Service\bin\Debug\netcoreapp3.1\PS.Data.pdb

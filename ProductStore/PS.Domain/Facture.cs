@@ -15,9 +15,9 @@ namespace PS.Domain
         public int Prix { get; set; }
 
        // [ForeignKey("ClientFK")] //can use this instead of FactureConfiguration
-        public Client Client { get; set; }
+        public virtual Client Client { get; set; }
 
      //   [ForeignKey("ProductFK")]
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
     }
 }

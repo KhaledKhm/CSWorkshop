@@ -23,9 +23,9 @@ namespace PS.Domain
         [ForeignKey("MyCategory")] //optional since the same name CategoryId is in Category.cs, if you want to name it something else you must add the annotation
         public int? CategoryId { get; set; }
         //[ForeignKey("CategoryFK")]
-        public Category  MyCategory { get; set; }
-        public IList<Provider> Providers { get; set; }
-        public IList<Facture> Factures  { get; set; }
+        public virtual Category MyCategory { get; set; }
+        public virtual List<Provider> Providers { get; set; }
+        public virtual IList<Facture> Factures  { get; set; }
 
         public override void GetDetails()
         {

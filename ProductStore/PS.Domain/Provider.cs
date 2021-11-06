@@ -44,7 +44,7 @@ namespace PS.Domain
             }
         }
 
-        public IList<Product> Products { get; set; }
+        public virtual IList<Product> Products { get; set; }
         
         public override void GetDetails()
         {

@@ -168,34 +168,41 @@ namespace PS.Console
               */
             using (var context = new PSContext())
             {
-                //Create
-                System.Console.WriteLine("Create");
-                //Instancier un objet Product
-                Product P = new Product
-                {
-                    Name = "Prod1",
-                    DateProd = DateTime.Now
-                };
-                //Ajouter l'objet au DBSET
-                context.Products.Add(P);
-                //Persister les données
-                context.SaveChanges();
+                ////Create
+                //System.Console.WriteLine("Create");
+                ////Instancier un objet Product
+                //Category C = new Category
+                //{
+                //    Name = "Cat1"
+                    
+                //};
+                ////Instancier un objet Product
+                //Product P = new Product
+                //{
+                //    Name = "Prod1",
+                //    DateProd = DateTime.Now,
+                //    MyCategory = C
+                //};
+                ////Ajouter l'objet au DBSET
+                //context.Products.Add(P);
+                ////Persister les données
+                //context.SaveChanges();
 
 
 
                 //Read All
-                System.Console.WriteLine("Read All");
-                foreach (Product p in context.Products)
-                {
-                    System.Console.WriteLine(p.ProductId + " " + p.Name);
-                }
+                //System.Console.WriteLine("Read All");
+                //foreach (Product p in context.Products)
+                //{
+                //    System.Console.WriteLine(p.ProductId + " " + p.Name + " " + p.MyCategory.Name);
+                //}
 
 
                 //Read Last
                 System.Console.WriteLine("Read Last");
                 var prod = context.Products.OrderBy(p => p.ProductId)
                     .Last();
-                System.Console.WriteLine(prod.ProductId + " " + prod.Name);
+                System.Console.WriteLine(prod.ProductId + " " + prod.Name + " " + prod.MyCategory.Name);
 
 
                 // Update

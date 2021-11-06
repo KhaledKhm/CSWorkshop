@@ -13,7 +13,7 @@ namespace PS.Domain
         public String Nom { get; set; }
         public String Prenom { get; set; }
         public String Mail { get; set; }
-        public IList<Facture> Factures { get; set; }
+        public virtual IList<Facture> Factures { get; set; }
 
     }
 }
